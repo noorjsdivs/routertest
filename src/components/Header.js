@@ -28,6 +28,11 @@ const Header = () => {
       title: "Contact",
       link: "/contact",
     },
+    {
+      id: 1005,
+      title: "Users",
+      link: "/users",
+    },
   ];
   return (
     <div>
