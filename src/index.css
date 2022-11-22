@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.active {
+  color: white;
+  text-decoration: underline white;
+  text-underline-offset: 0.5rem;
+}
+.app {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+header {
+  background-color: #111827;
+  color: rgb(206, 206, 206);
+  padding: 20px 0px;
+}
+header ul {
+  display: flex;
+  gap: 10px;
+  padding: 4px;
+  justify-content: center;
+  align-items: center;
+}
+header ul li {
+  padding: 5px 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+header ul li:hover {
+  text-decoration: underline white;
+  text-underline-offset: 0.5rem;
+  cursor: pointer;
+  transition: all ease-in-out 0.4s;
+}
+.about {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+.about p {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 10px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(119, 119, 119);
+}
+footer {
+  background-color: #1f2e4d;
+  color: white;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-decoration: underline white;
+  text-underline-offset: 0.3rem;
+  margin-top: 20px;
+}
