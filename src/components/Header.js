@@ -29,7 +29,7 @@ const Header = () => {
       link: "/contact",
     },
     {
-      id: 1005,
+      id: 1006,
       title: "Users",
       link: "/users",
     },
@@ -39,8 +39,8 @@ const Header = () => {
       <header>
         <ul>
           {navData.map((item) => (
-            <NavLink to={item.link}>
-              <li key={item.id}>{item.title}</li>
+            <NavLink key={item.id} to={item.link}>
+              <li>{item.title}</li>
             </NavLink>
           ))}
         </ul>

@@ -4,7 +4,6 @@ import { getUsers } from "../api/api";
 
 const Users = () => {
   let userInfo = useLoaderData();
-  console.log(userInfo.data);
   return (
     <div className="users">
       <h1>User page</h1>

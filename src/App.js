@@ -10,7 +10,7 @@ import About from "./components/About";
 import Product from "./components/Product";
 import Pages from "./components/Pages";
 import RootLayout from "./components/RootLayout";
-import Contact from "./components/Contact";
+import Contact, { contactData } from "./components/Contact";
 import Users, { usersData } from "./components/Users";
 
 const router = createBrowserRouter(
@@ -20,7 +20,7 @@ const router = createBrowserRouter(
       <Route path="/about" element={<About />}></Route>
       <Route path="/pages" element={<Pages />}></Route>
       <Route path="/product" element={<Product />}></Route>
-      <Route path="/contact" element={<Contact />}></Route>
+      <Route path="/contact" element={<Contact />} action={contactData}></Route>
       <Route path="/users" element={<Users />} loader={usersData}></Route>
     </Route>
   )
