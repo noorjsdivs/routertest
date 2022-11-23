@@ -1,15 +1,60 @@
 import React from "react";
+import { bubbleImg } from "../assets";
 
 const Product = () => {
   return (
-    <div className="about">
-      <h1>Product page</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt est
-        ratione necessitatibus quae quo delectus quibusdam enim! Veniam vero
-        temporibus sunt distinctio minima suscipit harum placeat iure id neque.
-        Aliquam.
-      </p>
+    <div className="product">
+      <div className="info">
+        <h4>Welcome you to</h4>
+        <h1>ReactBD_Upgrading your system.</h1>
+        <button>Take a tour</button>
+      </div>
+      <div className="bubbles">
+        <img src={bubbleImg} alt="bubbleImg" />
+        <img src={bubbleImg} alt="bubbleImg" />
+        <img src={bubbleImg} alt="bubbleImg" />
+        <img src={bubbleImg} alt="bubbleImg" />
+        <img src={bubbleImg} alt="bubbleImg" />
+        <img src={bubbleImg} alt="bubbleImg" />
+        <img src={bubbleImg} alt="bubbleImg" />
+        <img src={bubbleImg} alt="bubbleImg" />
+        <img src={bubbleImg} alt="bubbleImg" />
+        <img src={bubbleImg} alt="bubbleImg" />
+        <img src={bubbleImg} alt="bubbleImg" />
+        <img src={bubbleImg} alt="bubbleImg" />
+      </div>
+      <div className="lines">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
     </div>
   );
 };
